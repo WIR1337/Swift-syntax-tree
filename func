@@ -6,8 +6,6 @@ func collectOrToggle() {
     }
 }
 
-
-
 function-declaration -> 
 	function-head	-> func  
 	function-name ->
@@ -71,36 +69,3 @@ function-declaration ->
                                                                     ( )            
                                         }
             }
-	
-
-				 										                             	              
-													
-								
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

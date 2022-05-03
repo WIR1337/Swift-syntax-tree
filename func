@@ -1,0 +1,106 @@
+func collectOrToggle() {
+    if isOnGem {
+        collectGem()
+    } else if isOnClosedSwitch {
+        toggleSwitch()
+    }
+}
+
+
+
+function-declaration -> 
+	function-head	-> func  
+	function-name ->
+		identifier -> collectOrToggle
+			
+	function-signature ->
+		parameter-clause -> ( ) 
+	function-body ->
+		code-block -> 
+            { 
+            statements ->
+                statement ->
+                    branch-statement ->
+                        if-statemant -> 
+                            if
+                            condition-list ->
+                                condition ->
+                                    expression ->
+                                        prefix-expression ->
+                                            postfix-expression -> 
+                                                primary-expression -> 
+                                                    identifier -> isOnGem	 									                						
+						    code-block -> 
+                                {
+                                statements ->   
+                                    statement  ->
+                                        expression ->    
+                                            prefix-expression ->   
+                                                postfix-expression -> 
+                                                   function-call-expression -> 
+                                                        postfix-expression ->
+                                                            primary-expression ->
+                                                                identifier -> collectGem
+                                                        function-call-argument-clause -> ( )
+                                }
+						    else-clause	->	
+                               else 
+                               if-statement ->	
+                                    if
+                                    condition-list ->
+                                        condition ->
+                                            expression -> 
+                                                prefix-expression ->
+                                                    postfix-expression ->
+                                                        primary-expression ->
+                                                            identifier -> isOnClosedSwitch 
+                                    code-block -> 
+                                        {
+                                        statements ->
+                                            statement -> 
+                                                expression -> 
+                                                    prefix-expression ->
+                                                        postfix-expression ->
+                                                            function-call-expression -> 
+                                                                postfix-expression ->
+                                                                    primary-expression -> 
+                                                                        identifier -> 
+                                                                            identifier-head -> 
+                                                                                toggleSwitch
+                                                                function-call-argument-clause -> 
+                                                                    ( )            
+                                        }
+            }
+	
+
+				 										                             	              
+													
+								
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
